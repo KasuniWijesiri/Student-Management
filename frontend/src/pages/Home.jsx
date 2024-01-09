@@ -5,6 +5,9 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import StudentsCard from '../components/home/StudentsCard';
+import StudentsTable from '../components/home/StudentsTable';
+
 
 const Home = () => {
   // State to hold student data and loading state
